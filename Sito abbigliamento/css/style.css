@@ -1,0 +1,252 @@
+*
+{
+    box-sizing: border-box;
+	font-size: 16px;
+}
+
+html, body 
+{
+	margin: 0;
+	height: 100%;
+}
+
+body{
+
+   
+	padding-top: 90px;	
+}
+
+header{
+	background: orange;
+	padding: 20px;
+	width: 100%;
+	height: 50px;
+	position: fixed; 
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+header .logo
+{
+	float: left;
+}
+
+header .login
+{
+	float: right;
+}
+
+header .signin
+{
+	float: right;
+	margin-right: 20px;
+}
+
+header .text-color
+{
+	color: white;
+}
+
+.text-color
+{
+	color: red;
+}
+
+.container
+{
+	clear: both;	
+	width: 100%;
+	position: relative;
+}
+
+.container-login
+{
+	clear: both;	
+	width: 100%;
+    height: 100%;
+    background-image: url("sfondovestiti.jpg");
+    text-align: center;
+}
+
+.container:after
+{	
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav 
+{
+	background: #eee;
+	height: 40px;
+	padding-top: 9px;
+	padding-left: 20px;
+	position: fixed;
+	top: 50px;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	float: left;
+	margin-right: 10px;
+}
+
+nav ul a
+{
+	text-decoration: none;
+}
+
+section 
+{
+	position: relative;
+	float: none;
+	height: 100%; 
+	background: #03EFFF;
+	width: 100%;
+}
+
+aside 
+{
+	float: none;
+	height: 100%;
+	background: white;
+	width: 100%;
+}
+
+footer 
+{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	height: 100px;  
+	width: 100%;
+	clear: left;
+}
+
+h1
+{
+    margin-top: 0;
+}
+
+h2
+{
+    margin-top: 0;
+}
+
+@media screen and (min-width: 1024px)
+{
+    *
+    {
+       font-size: 20px;
+	}
+	aside
+	{
+		float: right;
+		width: 70%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+
+	section
+	{
+		float: left;
+		width: 30%;
+	}
+
+	h1
+	{
+		font-size: 1em; 
+	}
+}
+
+form ul
+{
+    list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+form .checkboxes
+{
+	float: left;
+	margin-right: 40px;
+}
+
+form .radiobuttons
+{
+	float: none;
+	margin-top: 20px;
+	
+}
+
+div .login
+{
+	margin-top: 10px;
+    clear: both;
+    float: left;
+    margin-left: 30%;
+}
+
+div .cerca
+{
+    margin-top: 20px;
+    clear: both;
+    float: left;
+}
+
+img
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.img-container
+{
+	
+	float: left;
+	margin-left: 20px;
+}
+
+.container-form
+{
+	margin-right: 30%;
+	margin-left: 40%;
+}
+
+.title
+{
+	color: red;
+	padding-top: 20%;
+}
+
+.prezzo
+{
+   margin-top: 0;
+   margin-bottom: 30px;
+}
+
+.descrizione
+{
+	margin-bottom: 0;
+}
+
+.msgsignin
+{
+	font-size: 40px;
+}

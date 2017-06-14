@@ -1,0 +1,132 @@
+*
+{
+	font-size: 18px;
+	padding 0;
+	margin 0;
+}
+
+h1, h2, h3, h4, h5
+{
+	margin: 0;
+	padding: 0;
+}
+
+p
+{
+	font-size: 18px;
+	padding: 0;
+	margin: 10;
+}
+
+.title
+{
+	color: red;
+	font-size: 29px;
+}
+
+body
+{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+form
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+select
+{
+    height: 27.01px;
+}
+
+.form-messagebox
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ul
+{
+	padding: 0;
+	margin: 10;
+	display: flex;
+}
+
+ul li
+{
+	list-style: none;
+	margin-right: 10px;
+}
+
+button
+{
+	border-radius: 10px;
+	outline: none;
+	font-size: 22px;
+}
+
+p.btn
+{
+	display: flex;
+	justify-content: center;
+}
+
+button:hover
+{
+	cursor: pointer;
+	background-color: white;
+}
+
+.alert 
+{
+	margin: 5px;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.success
+{
+	margin: 5px;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.closebtn 
+{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.closebtn:hover 
+{
+    color: black;
+}
+
+input
+{
+	width: 40px;
+}
+
+fieldset
+{
+	padding: 10px;
+}
+

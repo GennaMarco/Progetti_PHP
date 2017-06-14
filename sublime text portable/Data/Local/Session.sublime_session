@@ -1,0 +1,499 @@
+{
+	"folder_history":
+	[
+		"/D/Programmazione Front-end/terza lezione",
+		"/D/Programmazione Front-end/fileFabrizio",
+		"/D/Programmazione Front-end/seconda lezione",
+		"/D/Programmazione Front-end/sito",
+		"/D/Programmazione Front-end/compitoSito",
+		"/D/Programmazione Front-end/prima lezione",
+		"/C/xampp/htdocs/corsoITS2017/oggetti",
+		"/C/xampp/htdocs/corsoITS2017/Lezione29marzo",
+		"/C/xampp/htdocs/corsoITS2017/concessionario",
+		"/D/Programmazione Front-end",
+		"/C/xampp/htdocs/corsoITS2017"
+	],
+	"last_version": 3126,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"fo",
+						"font-size"
+					],
+					[
+						"margi",
+						"margin-top"
+					],
+					[
+						"back",
+						"background-position"
+					],
+					[
+						"bac",
+						"background-repeat"
+					],
+					[
+						"tex",
+						"text-align"
+					],
+					[
+						"wi",
+						"width"
+					],
+					[
+						"marg",
+						"margin-bottom"
+					],
+					[
+						"margin",
+						"margin-right"
+					],
+					[
+						"for",
+						"foreach\tforeach …"
+					],
+					[
+						"td",
+						"td\tTag"
+					],
+					[
+						"paddi",
+						"padding-left"
+					],
+					[
+						"li",
+						"link\tTag"
+					],
+					[
+						"padding-",
+						"padding-top"
+					],
+					[
+						"padding",
+						"padding-top"
+					],
+					[
+						"inl",
+						"inline-block"
+					],
+					[
+						"hea",
+						"header\tTag"
+					],
+					[
+						"con",
+						"container"
+					],
+					[
+						"di",
+						"div\tTag"
+					],
+					[
+						"box",
+						"box-sizing"
+					],
+					[
+						"wid",
+						"width"
+					],
+					[
+						"textal",
+						"text-align"
+					],
+					[
+						"mar",
+						"marche"
+					],
+					[
+						"array",
+						"arrayOggeti"
+					],
+					[
+						"mia",
+						"miaAuto2"
+					],
+					[
+						"setC",
+						"setCilindrata"
+					],
+					[
+						"ciao",
+						"CiaoMondo"
+					],
+					[
+						"Hell",
+						"HelloWorld"
+					],
+					[
+						"l",
+						"lezioniOggi"
+					],
+					[
+						"le",
+						"lezioneOggi"
+					],
+					[
+						"_",
+						"_SESSION"
+					],
+					[
+						"print_",
+						"print_r"
+					],
+					[
+						"pri",
+						"print_r"
+					],
+					[
+						"pass",
+						"password"
+					],
+					[
+						"in",
+						"input\tTag"
+					],
+					[
+						"n",
+						"num3"
+					],
+					[
+						"error",
+						"error_reporting"
+					],
+					[
+						"is_n",
+						"is_numeric"
+					],
+					[
+						"V",
+						"Valore1"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"incl",
+						"include"
+					],
+					[
+						"val",
+						"valoreCount"
+					],
+					[
+						"c",
+						"count"
+					],
+					[
+						"stu",
+						"studenteValore"
+					],
+					[
+						"num",
+						"numeroSuccessi"
+					],
+					[
+						"s",
+						"studenti"
+					],
+					[
+						"st",
+						"style\tTag"
+					],
+					[
+						"t",
+						"title"
+					],
+					[
+						"str_re",
+						"str_replace"
+					],
+					[
+						"frase",
+						"frase4"
+					],
+					[
+						"fras",
+						"frase2"
+					],
+					[
+						"strtou",
+						"mb_strtoupper"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/D/Programmazione Front-end/terza lezione/style.css",
+				"/D/Programmazione Front-end/terza lezione/index2.html",
+				"/D/Programmazione Front-end/fileFabrizio/style.css",
+				"/D/Programmazione Front-end/fileFabrizio/index2.html",
+				"/D/Programmazione Front-end/seconda lezione/secondaLezione.html",
+				"/D/Programmazione Front-end/seconda lezione/style.css",
+				"/D/Programmazione Front-end/sito/secondaLezione.html",
+				"/D/Programmazione Front-end/sito/style.css",
+				"/D/Programmazione Front-end/compitoSito/index.html",
+				"/C/xampp/htdocs/corsoITS2017/Lezione29marzo/Studente.php",
+				"/C/xampp/htdocs/corsoITS2017/Lezione29marzo/contenitoreStudenti.php",
+				"/C/xampp/htdocs/corsoITS2017/Lezione29marzo/aulaITS2017.php",
+				"/C/xampp/htdocs/corsoITS2017/Lezione29marzo/header.php",
+				"/C/xampp/htdocs/corsoITS2017/concessionario/Automobile.php",
+				"/C/xampp/htdocs/corsoITS2017/concessionario/footer.php",
+				"/C/xampp/htdocs/corsoITS2017/concessionario/header.php",
+				"/C/xampp/htdocs/corsoITS2017/Lezione29marzo/aula.studenti.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore sito/Inc/config.php",
+				"/C/xampp/htdocs/corsoITS2017/concessionario/main.php",
+				"/C/xampp/htdocs/corsoITS2017/concessionario/auto200.api.php",
+				"/C/xampp/htdocs/corsoITS2017/concessionario/concessionario.php",
+				"/C/xampp/htdocs/corsoITS2017/oggetti/oggetti1.php",
+				"/D/Programmazione Front-end/index.html",
+				"/D/Programmazione Front-end/primaLezione.html",
+				"/D/Programmazione Front-end/secondaLezione.html",
+				"/D/Programmazione Front-end/style.css",
+				"/D/Programmazione Front-end/about.html",
+				"/D/Programmazione Front-end/contact.html",
+				"/C/Users/degennarom/Desktop/cuore.html",
+				"/C/xampp/htdocs/corsoITS2017/oggetti/main.php",
+				"/C/xampp/htdocs/corsoITS2017/oggetti/Automobile.php",
+				"/C/xampp/htdocs/corsoITS2017/Nuove cose/oggetti1.php",
+				"/C/xampp/htdocs/corsoITS2017/Nuove cose/main.php",
+				"/C/xampp/htdocs/corsoITS2017/Nuove cose/oggetti2.php",
+				"/C/xampp/htdocs/corsoITS2017/COMPITI/Figure geometriche/FunzioniFigure.php",
+				"/C/xampp/htdocs/corsoITS2017/Nuove cose/form.php",
+				"/C/xampp/htdocs/corsoITS2017/Nuove cose/form_processing.php",
+				"/C/xampp/htdocs/corsoITS2017/Nuove cose/headers.php",
+				"/C/xampp/htdocs/corsoITS2017/Nuove cose/cookies.php",
+				"/C/xampp/htdocs/corsoITS2017/Nuove cose/sessions.php",
+				"/C/xampp/htdocs/corsoITS2017/challengers/calendario2.php",
+				"/C/xampp/htdocs/corsoITS2017/Nuove cose/quadrato_magico(versione professore).php",
+				"/C/xampp/htdocs/corsoITS2017/Nuove cose/calendario.php",
+				"/C/xampp/htdocs/corsoITS2017/Nuova cartella/float.php",
+				"/C/xampp/htdocs/corsoITS2017/Nuova cartella/Ordinamento.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/calcolatrice.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/Inc/config.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/Pagina_Web_Metodo_Prof.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/header.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/menu.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/sidebar.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/css/mioStile.css",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/content.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/dettaglio.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/giochi_LanciaDadiPost.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/array_associativi.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/calcolaValori.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/formHtml.php",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/formhtml.html",
+				"/C/xampp/htdocs/corsoITS2017/GitHub professore/array.php",
+				"/C/xampp/htdocs/corsoITS2017/Miei File/cicliWhile.php",
+				"/C/xampp/htdocs/corsoITS2017/Miei File/css/mioStile.css",
+				"/C/xampp/htdocs/corsoITS2017/FileScuola/css/mioStile.css",
+				"/C/xampp/htdocs/corsoITS2017/Inc/config.php",
+				"/C/xampp/htdocs/corsoITS2017/giochi_LanciaDadiPost.php",
+				"/C/xampp/htdocs/corsoITS2017/cicliWhile.php",
+				"/C/xampp/htdocs/corsoITS2017/css/mioStile.css",
+				"/C/xampp/htdocs/corsoITS2017/Pagina_web_dinamica.php",
+				"/C/xampp/htdocs/corsoITS2017/condizioni.php",
+				"/C/xampp/htdocs/corsoITS2017/array_associativi.php",
+				"/C/xampp/htdocs/corsoITS2017/test_data.php",
+				"/C/xampp/htdocs/corsoITS2017/index.php",
+				"/C/xampp/htdocs/corsoITS2017/giochi_lanciaDadi.php",
+				"/C/xampp/htdocs/corsoITS2017/informazioni_su_php.php",
+				"/C/xampp/htdocs/corsoITS2017/array.php",
+				"/C/xampp/htdocs/corsoITS2017/Variabili.php",
+				"/C/xampp/htdocs/corsoITS2017/array_associativi"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"footer",
+					"private",
+					"Nome",
+					"Static%20Top%20Navbar%20Example%20for%20Bootstrap_files",
+					"static",
+					"Static",
+					"Static%20Top%20Navbar%20Example%20for%20Bootstrap_files/bootstrap.css",
+					"header",
+					"/>\"\n",
+					"// ",
+					"php",
+					"\t\t\t\n",
+					"case 'somma':\n\t\t\t$c = $a + $b;\n\t\t\tbreak;",
+					"stude",
+					"]);\n",
+					"];\n"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 34.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-1,-1,-1,-1,906,-57,9,1867",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 224.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
