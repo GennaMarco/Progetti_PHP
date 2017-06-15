@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 14, 2017 at 01:58 AM
+-- Generation Time: Jun 16, 2017 at 01:44 AM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -73,9 +73,10 @@ INSERT INTO `immagini` (`IdImmagine`, `Immagine`) VALUES
 --
 
 CREATE TABLE `posts` (
+  `IdPost` int(11) NOT NULL,
   `Title` varchar(255) NOT NULL,
   `Author` varchar(255) NOT NULL,
-  `Review` varchar(255) NOT NULL,
+  `Review` longtext NOT NULL,
   `DatePost` date NOT NULL,
   `IdGenere` int(11) NOT NULL,
   `IdImmagine` int(11) NOT NULL
@@ -85,9 +86,9 @@ CREATE TABLE `posts` (
 -- Dumping data for table `posts`
 --
 
-INSERT INTO `posts` (`Title`, `Author`, `Review`, `DatePost`, `IdGenere`, `IdImmagine`) VALUES
-('Matrix', 'Neo', 'film bellissimo', '2017-06-12', 3, 1),
-('Wonder Woman', 'Marvel', 'film bello', '2017-06-13', 1, 2);
+INSERT INTO `posts` (`IdPost`, `Title`, `Author`, `Review`, `DatePost`, `IdGenere`, `IdImmagine`) VALUES
+(1, 'Matrix', 'Warner Bros', 'Too bad, because the set-up is intriguing. "The Matrix" recycles the premises of "Dark City" and "Strange Days," turns up the heat and the volume, and borrows the gravity-defying choreography of Hong Kong action movies. It''s fun, but it could have been more. The directors are Larry and Andy Wachowski, who know how to make movies (their first film, "Bound," made my 10 best list in 1996). Here, with a big budget and veteran action producer Joel Silver, they''ve played it safer; there''s nothing wrong with going for the Friday night action market, but you can aim higher and still do business.\r\n\r\nWarning; spoilers ahead. The plot involves Neo (Keanu Reeves), a mild-mannered software author by day, a feared hacker by night. He''s recruited by a cell of cyber-rebels, led by the profound Morpheus (Laurence Fishburne) and the leather-clad warrior Trinity (Carrie-Anne Moss). They''ve made a fundamental discovery about the world: It doesn''t exist. It''s actually a form of Virtual Reality, designed to lull us into lives of blind obedience to the "system." We obediently go to our crummy jobs every day, little realizing, as Morpheus tells Neo, that "Matrix is the wool that has been pulled over your eyes--that you are a slave." The rebels want to crack the framework that holds the Matrix in place, and free mankind. Morpheus believes Neo is the Messianic "One" who can lead this rebellion, which requires mind power as much as physical strength. Arrayed against them are the Agents, who look like Blues Brothers. The movie''s battles take place in Virtual Reality; the heroes'' minds are plugged into the combat. (You can still get killed, though: "The body cannot live without the mind"). "Jacking in" like this was a concept in "Strange Days" and has also been suggested in novels by William Gibson ("Idoru") and others. The notion that the world is an artificial construction, designed by outsiders to deceive and use humans, is straight out of "Dark City." Both of those movies, however, explored their implications as the best science fiction often does. "Dark City" was fascinated by the Strangers who had a poignant dilemma: They were dying aliens who hoped to learn from human methods of adaptation and survival.\r\n\r\nIn "Matrix," on the other hand, there aren''t flesh-and-blood creatures behind the illusion--only a computer program that can think, and learn. The Agents function primarily as opponents in a high-stakes computer game. The movie offers no clear explanation of why the Matrix-making program went to all that trouble. Of course, for a program, running is its own reward--but an intelligent program might bring terrifying logic to its decisions.\r\n\r\nBoth "Dark City" and "Strange Days" offered intriguing motivations for villainy. "Matrix" is more like a superhero comic book in which the fate of the world comes down to a titanic fist-fight between the designated representatives of good and evil. It''s cruel, really, to put tantalizing ideas on the table and then ask the audience to be satisfied with a shoot-out and a martial arts duel. Let''s assume Neo wins. What happens then to the billions who have just been "unplugged" from the Matrix? Do they still have jobs? Homes? Identities? All we get is an enigmatic voice-over exhortation at the movie''s end. The paradox is that the Matrix world apparently resembles in every respect the pre-Matrix world. (I am reminded of the animated kid''s film "Doug''s 1st Movie," which has a VR experience in which everything is exactly like in real life, except more expensive.) Still, I must not ignore the movie''s virtues. It''s great-looking, both in its design and in the kinetic energy that powers it. It uses flawlessly integrated special effects and animation to visualize regions of cyberspace. It creates fearsome creatures, including mechanical octopi. It morphs bodies with the abandon of "Terminator II." It uses f/x to allow Neo and Trinity to run horizontally on walls, and hang in the air long enough to deliver karate kicks. It has leaps through space, thrilling sequences involving fights on rooftops, helicopter rescues and battles over mind control.', '2017-06-12', 3, 1),
+(2, 'Wonder Woman', 'DC-Comics', 'There’s a meme that’s been doing the rounds lately. In it, a battered and bruised Superman and Batman are being propped up by a pristine Wonder Woman, who says, “I got this.” The caption reads: “The DCEU right now.”\r\nAfter Patty Jenkins’ Wonder Woman, it’s hard not to feel that meme is right on the money. Four movies in to the DC Extended Universe, this is more like it. Man Of Steel, Batman V Superman: Dawn Of Justice and Suicide Squad may all have been hits, but they’ve been rather joyless, largely critically savaged affairs that delivered the pow, but little of the wow. Wonder Woman changes all that. And it does so by looking to the past, taking inspiration from the likes of Thor and Captain America: The First Avenger. But the film’s biggest debt is to Superman The Movie. Both structurally — the opening half-hour in Themyscira is akin to the Krypton segment of Richard Donner’s movie — and tonally. Like Christopher Reeve’s Superman, Gal Gadot’s Diana is a bright beacon of hope in a world of greys.\r\nWhere it echoes Donner’s masterpiece most is in the central relationship between Diana and Steve Trevor (Pine), a canny recasting of the Clark Kent/Lois Lane affair. The twist is that Pine is Lois: impulsive, brilliant, hopelessly in love with a living god. But he’s more than just the dude in distress — as an above average (his words) spy in his own right, he carries a lot of the film’s narrative thrust whilst deploying that Kirkian deadpan humour to undercut the ridiculousness of things such as the Lasso Of Truth.\r\nThe romance between Diana and Steve is so winning that it becomes the film’s glue. Whenever we cut away to Danny Huston hamming it up as generic German guttersnipe (Not) Red Skull (Honest), momentum is lost. Never mind him — this is all about the Amazon prime and the man who can do little else but stare at her in wonder.\r\n\r\nAs Diana, Gadot is excellent, a rocking electric cello riff in human form. Dawn Of Justice proved she could handle the kicking and the punching. Here, she gets actual honest-to-goodness dialogue, and invests Diana with excitable exuberance, bristling defiance and a disarming belief in doing the right thing. She’s also funny, particularly when she goes full bumbling Clark Kent.', '2017-06-13', 1, 2);
 
 --
 -- Indexes for dumped tables
@@ -109,7 +110,7 @@ ALTER TABLE `immagini`
 -- Indexes for table `posts`
 --
 ALTER TABLE `posts`
-  ADD PRIMARY KEY (`Title`),
+  ADD PRIMARY KEY (`IdPost`),
   ADD KEY `IdGenere` (`IdGenere`);
 
 --
@@ -126,6 +127,11 @@ ALTER TABLE `generi`
 --
 ALTER TABLE `immagini`
   MODIFY `IdImmagine` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT for table `posts`
+--
+ALTER TABLE `posts`
+  MODIFY `IdPost` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- Constraints for dumped tables
 --

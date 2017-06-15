@@ -1,3 +1,8 @@
+*
+{
+  box-sizing: border-box;
+}
+
 form
 {
   width: 50%;
@@ -45,7 +50,7 @@ footer p
 
 .container-content-sidebar
 {
-   padding-top: 50px;
+   padding-top: 80px;
    display: flex;
 }
 
@@ -88,6 +93,52 @@ footer p
   background-color: #FFFFCC;
 }
 
+h2.post-title
+{
+   margin-top: 0;
+}
+
+.left
+{
+  display: inline-block;
+  width: 70%;
+}
+
+div.sidebar.left
+{
+  margin-top: 0;
+}
+
+.img-post
+{
+  float: left;
+  height: 200px;
+}
+
+.post-preview:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.post-meta
+{
+  clear: both;
+}
+
+@media only screen and (min-width: 991px) 
+{
+  .img-post
+  {
+    float: right;
+    height: 250px;
+  }
+  p.post-meta
+  {
+    clear: none;
+  }
+}
+
 /*!
  * Start Bootstrap - Clean Blog v3.3.7+1 (http://startbootstrap.com/template-overviews/clean-blog)
  * Copyright 2013-2017 Start Bootstrap
@@ -108,7 +159,6 @@ p a {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -322,7 +372,7 @@ hr.small {
 }
 .post-preview > a > .post-title {
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 .post-preview > a > .post-subtitle {
@@ -334,7 +384,8 @@ hr.small {
   color: #777777;
   font-size: 18px;
   font-style: italic;
-  margin-top: 0;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;

@@ -22,7 +22,7 @@
 
 <body>
     <?php include 'includes/database.php'; ?>
-    <?php include 'includes/functions.php'; ?>
+    <?php include 'includes/queries.php'; ?>
     <?php include 'includes/navbar.php'; ?>
     <?php include 'includes/content-posts.php'; ?>
     <?php include 'includes/footer.php'; ?>
