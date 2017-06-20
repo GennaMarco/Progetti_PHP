@@ -18,16 +18,16 @@ h2
 
 textarea 
 {
-    resize: none;
+  resize: none;
 }
 
 .navbar-default 
 {
-    background-color: #DDDDDD;
-    margin-bottom: 0px;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+  background-color: #DDDDDD;
+  margin-bottom: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .blog-footer 
@@ -52,6 +52,7 @@ footer p
 {
    padding-top: 80px;
    display: flex;
+   justify-content: flex-end;
 }
 
 .container-content
@@ -109,13 +110,13 @@ div.sidebar.left
   margin-top: 0;
 }
 
-.img-post
+.img-post:hover
 {
-  float: left;
-  height: 200px;
+  cursor: pointer;
 }
 
-.post-preview:after {
+.post-preview:after 
+{
   content: "";
   display: table;
   clear: both;
@@ -124,6 +125,41 @@ div.sidebar.left
 p.post-meta
 {
   clear: both;
+}
+
+aside
+{
+  padding-bottom: 25px;
+}
+
+.single-post
+{
+  margin: 20px;
+}
+
+.single-post:after
+{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.btn-primary
+{
+  width: 150px;
+  margin: 5px;
+}
+
+.btn-warning
+{
+  width: 150px;
+  margin: 5px;
+}
+
+.btn-danger
+{
+  width: 150px;
+  margin: 4px;
 }
 
 @media only screen and (min-width: 991px) 
@@ -292,7 +328,6 @@ hr.small {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,

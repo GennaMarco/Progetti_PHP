@@ -1,6 +1,6 @@
 <div class="form-content immagine" style="background-image: url('img/form_sfondo.jpeg')">
 
-  <form class="center-block" method="POST">
+  <form class="center-block" method="POST" enctype="multipart/form-data">
         <h2 class="text-center color-black">New Post</h2>
         <div class="form-group">
           <label class="color-black" for="inputTitle">Title</label>
@@ -21,7 +21,7 @@
                     <?php $propertyResult = SelectGenres();?>      
                     <?php while ($row = mysqli_fetch_array($propertyResult)) : ?>                
                         <option value="<?=$row['IdGenere']?>"><?=$row['Genere']?></option>
-                    <?php endwhile; ?>
+                  <?php endwhile; ?>
          
           </select>
         </div>
@@ -35,7 +35,7 @@
   </form>
 
   <?php
-    
+     
     
 
     if(isset($_POST['btnInserisci']))
@@ -44,10 +44,14 @@
         $author = $_POST['author'] != ""?  $_POST['author']: "";
         $review = $_POST['review'] != ""?  $_POST['review']: "";
         $idgenre = $_POST['genre'];
-        if($title != "" && $author != "" && (strlen($review) >= 150))
+        
+        if($title != "" && $author != "" && (strlen($review) >= 50))
         {
-          $propertyResult = InsertPost($title, $author, $review, date('Y-m-d'), $idgenre, 1);
-          echo "database";
+          $image = addslashes(file_get_contents($_FILES['file-img']['tmp_name']));
+          $propertyResultImage = InsertImage($image);
+          $propertyResultIdImage = SelectIdImageByImage($image);
+          $img = mysqli_fetch_array($propertyResultIdImage);
+          $propertyResultPosts = InsertPost($title, $author, $review, date('Y-m-d'), $idgenre, $img['IdImmagine']);
         }
     }
 

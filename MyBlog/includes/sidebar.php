@@ -5,7 +5,9 @@
     </li>
 	  <?php $propertyResult = SelectGenres();?>
       <?php while ($row = mysqli_fetch_array($propertyResult)): ?>
-                <li> <a href="#"><i class="fa fa-diamond"></i> <span class="nav-label"><?= $row['Genere']?></span></a></li>
+                <li> <a href="posts.php?IdGenere=<?= $row['IdGenere'] ?>"><i class="fa fa-diamond"></i> <span class="nav-label"><?= $row['Genere']?></span></a></li>
       <?php endwhile; ?>
   </ul>
-</div> 
+</div>
+
+

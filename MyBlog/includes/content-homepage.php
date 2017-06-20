@@ -8,7 +8,7 @@
                         <h1>Cool Blog</h1>
                         <hr class="small">
                         <span class="subheading">A Blog by Marco</span>
-                        <span class="subheading">Reviews about movies and tv series</span>
+                        <span class="subheading">Reviews about movies</span>
                     </div>
                 </div>
             </div>

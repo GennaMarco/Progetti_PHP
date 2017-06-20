@@ -86,3 +86,10 @@ a.collapsed.active
 {
     cursor: default;
 }
+
+.clicked
+{
+    background-color: red;
+}
+
+
