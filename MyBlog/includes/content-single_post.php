@@ -1,4 +1,7 @@
-<?php $propertyResult = SelectPostByIdPost($_GET['IdPost']); ?>
+<?php 
+      $mysqliConnection = new mysqli(DB_HOST,DB_USERS,DB_PASS,DB_NAME);
+      $idpost = mysqli_real_escape_string($mysqliConnection, $_GET['IdPost']);
+      $propertyResult = SelectPostByIdPost($idpost); ?>
 <?php $row = mysqli_fetch_array($propertyResult); ?>
 <div class="container container-content">
 	<div class="single-post">

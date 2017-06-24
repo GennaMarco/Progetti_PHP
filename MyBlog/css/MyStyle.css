@@ -3,12 +3,20 @@
   box-sizing: border-box;
 }
 
-form
+#form_new_post
 {
   width: 50%;
-  box-shadow: 0 0 20px 10px grey;
+  box-shadow: 0 0 20px 10px #6495ed;
   padding: 20px;
-  background-color: grey;
+  background-color: white;
+}
+
+#form_update_post
+{
+  width: 50%;
+  box-shadow: 0 0 20px 10px orange;
+  padding: 20px;
+  background-color: white;
 }
 
 h2
@@ -91,6 +99,7 @@ footer p
 
 .post-preview
 {
+  padding: 10px;
   background-color: #FFFFCC;
 }
 
@@ -115,12 +124,7 @@ div.sidebar.left
   cursor: pointer;
 }
 
-.post-preview:after 
-{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 p.post-meta
 {
@@ -129,6 +133,7 @@ p.post-meta
 
 aside
 {
+  margin-top: 49px;
   padding-bottom: 25px;
 }
 
@@ -147,19 +152,31 @@ aside
 .btn-primary
 {
   width: 150px;
-  margin: 5px;
+  margin-right: 5px;
 }
 
 .btn-warning
 {
   width: 150px;
-  margin: 5px;
+  margin-right: 5px;
 }
 
 .btn-danger
 {
   width: 150px;
-  margin: 4px;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+img.img-post
+{
+  height: 250px;
+}
+
+.page-header.text-center
+{
+  margin: 0;
+
 }
 
 @media only screen and (min-width: 991px) 

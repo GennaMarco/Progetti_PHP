@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MyBlog: about</title>
+	<title>MyBlog: modifica-post</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<!-- fonts first -->
@@ -25,11 +25,14 @@
 
 	<!-- My Custom Javascript-->
 	<script src="js/MyJavascript.js"></script>
+
 </head>
 
 <body>
+	<?php require 'includes/database.php'; ?>
+	<?php include 'includes/queries.php'; ?>
 	<?php include 'includes/navbar.php'; ?>
-	<?php include 'includes/content-about.php'; ?>
+	<?php include 'includes/content-update_post.php'; ?>
 	<?php include 'includes/footer.php'; ?>
 </body>
 </html>

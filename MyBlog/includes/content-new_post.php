@@ -1,6 +1,6 @@
 <div class="form-content immagine" style="background-image: url('img/form_sfondo.jpeg')">
 
-  <form class="center-block" method="POST" enctype="multipart/form-data">
+  <form id="form_new_post" class="center-block" method="POST" enctype="multipart/form-data">
         <h2 class="text-center color-black">New Post</h2>
         <div class="form-group">
           <label class="color-black" for="inputTitle">Title</label>
@@ -36,27 +36,29 @@
 
   <?php
      
-    
-
     if(isset($_POST['btnInserisci']))
     {
-        $title = $_POST['title'] != ""?  $_POST['title']: "";
-        $author = $_POST['author'] != ""?  $_POST['author']: "";
-        $review = $_POST['review'] != ""?  $_POST['review']: "";
+        $mysqliConnection = new mysqli(DB_HOST,DB_USERS,DB_PASS,DB_NAME);
+
+        $title = mysqli_real_escape_string($mysqliConnection, $_POST['title']);
+        $author = mysqli_real_escape_string($mysqliConnection, $_POST['author']);
+        $review = mysqli_real_escape_string($mysqliConnection, $_POST['review']);
         $idgenre = $_POST['genre'];
-        
-        if($title != "" && $author != "" && (strlen($review) >= 50))
+        $image = addslashes(file_get_contents($_FILES['file-img']['tmp_name']));
+
+        if(!empty($title) && !empty($author) && !empty($review) && !empty($image))
         {
-          $image = addslashes(file_get_contents($_FILES['file-img']['tmp_name']));
           $propertyResultImage = InsertImage($image);
           $propertyResultIdImage = SelectIdImageByImage($image);
           $img = mysqli_fetch_array($propertyResultIdImage);
-          $propertyResultPosts = InsertPost($title, $author, $review, date('Y-m-d'), $idgenre, $img['IdImmagine']);
+          $propertyResultPosts = InsertPost($title, $author, $review, date('Y-m-d H:i:s'), $idgenre, $img['IdImmagine']);
+
+          ?>
+          <script type="text/javascript">
+          PostMessage("Post inserito con successo!");
+          </script>
+          <?php
         }
     }
-
-
-
-
-   ?>
+?>
 </div>
