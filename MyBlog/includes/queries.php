@@ -186,4 +186,35 @@
 
       return mysqli_query($mysqliConnection, $sql);
   }
+
+  function InsertUser($username, $email, $password)
+  {
+      $mysqliConnection = new mysqli(DB_HOST,DB_USERS,DB_PASS,DB_NAME);
+
+      if(mysqli_connect_errno())
+      {
+        printf("Oops, problemi con connessione al database: %s", mysqli_connect_errno());
+        exit();
+      }
+
+      $sql = "INSERT INTO utenti (IdUtente, Username, Email, Password) 
+              VALUES (NULL, '$username', '$email', '$password')";
+
+      return mysqli_query($mysqliConnection, $sql);
+  }
+
+  function SelectPasswordByUsername($username)
+  {
+      $mysqliConnection = new mysqli(DB_HOST,DB_USERS,DB_PASS,DB_NAME);
+
+      if(mysqli_connect_errno())
+      {
+        printf("Oops, problemi con connessione al database: %s", mysqli_connect_errno());
+        exit();
+      }
+
+      $sql = "SELECT Password FROM utenti WHERE Username = '$username'";
+
+      return mysqli_query($mysqliConnection, $sql);
+  }
 ?>

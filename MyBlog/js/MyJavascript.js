@@ -37,6 +37,16 @@ $(function() {
 
 });
 
+function SignMessage(message)
+{
+    bootbox.alert
+    (
+        {
+            message: message
+        }
+    );
+}
+
 function PostMessage(message)
 {
     bootbox.alert
@@ -48,6 +58,10 @@ function PostMessage(message)
         }
     );
 }
+
+
+
+
 
 
 

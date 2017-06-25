@@ -1,9 +1,9 @@
     <!-- Main Content -->
     <div class="container container-content-sidebar">
         <div class="row">
-<?php       
+<?php    
             $mysqliConnection = new mysqli(DB_HOST,DB_USERS,DB_PASS,DB_NAME);
-            $num_post_per_pagina = 2;
+            $num_post_per_pagina = 3;
             if(isset($_GET['start']) && $_GET['start'] > 0)
                 $start = mysqli_real_escape_string($mysqliConnection, $_GET['start']);
             else
@@ -11,9 +11,10 @@
             if(isset($_GET['IdGenere']))
             { 
                 $idgenere = mysqli_real_escape_string($mysqliConnection, $_GET['IdGenere']);
+                $genere = mysqli_real_escape_string($mysqliConnection, $_GET['Genere']);
                 $postInpaginati = SelectPostsByIdGenreLimitOffset($idgenere, $num_post_per_pagina, $start);
                 $postTotali = SelectPostsByIdGenre($idgenere);
-                echo "<h1 class='page-header text-center' style='color: red;'>Filter by ".$_GET['Genere']."</h1>";
+                echo "<h1 class='page-header text-center' style='color: red;'>Filter by ".$genere."</h1>";
             }
             else
             { 
@@ -51,8 +52,10 @@
 ?>                          </a>
                             <p class="post-meta">Posted by Marco on <?= $row['DatePost']?></p>
                             <br>
-                            <a class="btn btn-warning" href="./update_post.php?IdPost=<?= $row['IdPost'] ?>" >Update</a>
-                            <a class="btn btn-danger alert" onclick="eliminaAjax(<?= $row['IdPost'] ?>)">Delete</a>
+                        <?php if(isset($_SESSION['user']) && $_SESSION['user'] == "admin") : ?>
+                                <a class="btn btn-warning" href="./update_post.php?IdPost=<?= $row['IdPost'] ?>" >Update</a>
+                                <a class="btn btn-danger alert" onclick="eliminaAjax(<?= $row['IdPost'] ?>)">Delete</a>
+                            <?php endif; ?>
                         </div>
                         <hr>
 <?php   

@@ -20,8 +20,16 @@
 			
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="./new_post.php">New Post</a></li>
-	        <li><a href="./sign_in_up.php">Sign-in/up</a></li>
+	      	<?php  
+	        if(isset($_SESSION['user']) && $_SESSION['user'] == "admin")
+	        	echo '<li><a href="./new_post.php">New Post</a></li>';
+		
+			if(isset($_SESSION['user']))
+        		echo '<li><a href="includes/log_out.php"><span class="glyphicon glyphicon-log-out"></span></a></li>';
+    		else
+    			echo '<li><a href="./sign_in_up.php">Sign-in/up</a></li>'
+    		
+ ?>
 	    <!--
    			<li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
